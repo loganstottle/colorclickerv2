@@ -2,11 +2,15 @@
     --grid_size: 4;
 }
 
+* {
+    user-select: none;
+}
+
 #timer {
     font-size: 24px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-  
+
 body {
     width: 100vw; 
     height: 100vh;
