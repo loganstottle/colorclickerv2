@@ -1,0 +1,48 @@
+:root {
+    --grid_size: 4;
+}
+
+#timer {
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+body {
+    width: 100vw; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+#game-board {
+    width: 60vh;
+    height: 60vh;
+  
+    background-color: red;
+    outline: 1px solid black;
+  
+    display: grid;
+  
+    grid-template-columns: repeat(var(--grid_size), calc(60vh / var(--grid_size)));
+}
+  
+.game-tile {
+    outline: 2px solid black;
+  
+    width: calc(60vh / var(--grid_size));
+    height: calc(60vh / var(--grid_size));
+  
+    box-sizing: border-box;
+}
+
+#settings-container {
+    padding: 25px;
+}
+
+#grid-size {
+    width: 40px;
+}
