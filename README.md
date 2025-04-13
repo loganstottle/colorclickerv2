@@ -1,2 +1,2 @@
-revamp of an old game i made
-- might polish and add a leaderboard soon
+revamp of an old game I made
+- polish + leaderboard soon(TM)
