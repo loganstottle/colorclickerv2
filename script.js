@@ -92,7 +92,7 @@ const init = () => {
 		tile_el.dataset.clicked = false;
 		game_board_el.append(tile_el);
 
-		tile_el.onmouseup = handle_click;
+		tile_el.onmousedown = handle_click;
 	}
 
 	colors_left = new Array(grid_size).fill(grid_size);
